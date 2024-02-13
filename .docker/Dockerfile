@@ -1,4 +1,4 @@
-FROM atlassian/confluence:latest
+FROM atlassian/confluence
 
 RUN apt-get clean -y && apt-get update -y && apt-get install postgresql-client -y;
 
